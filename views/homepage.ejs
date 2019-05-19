@@ -10,7 +10,7 @@
 
 	<!--socketio-->
 	<script>
-		var socket = io("http://localhost:3000");
+		var socket = io("https://webgamecocos.herokuapp.com/");
 		//client nhận dữ liệu từ server
 		socket.on("Server-sent-data", function (data) {
 			$("#chat-content").append(data);
