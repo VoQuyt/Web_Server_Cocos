@@ -1,18 +1,21 @@
-    
 {
-  "name": "web",
-  "version": "1.0.0",
-  "description": "node app ",
-  "main": "app.js",
-  "scripts": {
-  "start": "node app.js"
-  },
-  "repository": {
-  "type": "git",
-  "url": ""
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-  }
-  }
+    "name": "web",
+    "version": "1.0.0",
+    "description": "node app ",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {},
+    "dependencies": {
+        "ejs": "^2.6.1",
+        "express": "^4.17.0",
+        "socketio": "^1.0.0"
+    }
+}

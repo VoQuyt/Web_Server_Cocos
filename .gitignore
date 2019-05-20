@@ -1,0 +1,11 @@
+node_modules/
+.idea/
+*.iml
+*.iws
+*.eml
+out/
+.DS_Store
+*.docx
+*.pdf
+log/*.log
+~                     
